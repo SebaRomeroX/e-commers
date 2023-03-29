@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/home-styles.css" />
+    <title>nuevo-producto</title>
+</head>
+<body>
+    <header>
+        <a href="../screens/home.html">
+            <div>
+                <img src="../assets/logo.png" class="logo" alt="logo">
+                <h2>Tienda Geek</h2>
+            </div>
+        </a>
+        <a href="../screens/log.html" class="boton_administrador"><button  class="login">Modo administrador</button></a>
+        
+    </header>
+    <main>
+        <section class="seccion_producto">
+            <div class="formulario_producto">
+                <h2 class="formcontato__title">Agregar Nuevo Producto</h2>
+                <form class="formulario_mensaje" name="form" data-form>
+                    <!-- <div class="container">
+                        <input class="formproducto__input" type="text" name="url" placeholder="URL de imagen" id="url"
+                        required data-tipo="url">
+                        <span class="input-message-error"></span>
+                    </div>
+                    <div class="container">
+                        <input class="formproducto__input" type="text" name="categoria" placeholder="Categoria" id="categoria" required data-tipo="categoria" maxlength="50">
+                        <span class="input-message-error"></span>
+                    </div>-->
+                    <div class="container">
+                        <input class="formproducto__input" type="text" name="nombre" placeholder="Nombre del producto" id="nombre" required data-tipo="nombre"  maxlength="50">
+                        <span class="input-message-error"></span>
+                    </div>
+                    <!-- <div class="container">
+                        <input class="formproducto__input" type="number" name="precio" placeholder="Precio del producto" id="precio" required data-tipo="precio"  maxlength="50">
+                        <span class="input-message-error"></span>
+                    </div> -->
+                    <!-- <div class="container">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Descripcion del producto." id="descripcion"
+                         required data-tipo="mensaje" 
+                             maxlength="400"></textarea>
+                    </div> -->
+                    <button type="submit" class="boton_agregar_producto">Agregar producto</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    
+    <footer>
+        <p>Desarrollado por Sebastian Romero</p><br>
+        <p>2023</p>
+    </footer>
+    <script src="../js/validacion.js"></script>
+    <script src="../index.js"></script>
+</body>
+</html>

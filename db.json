@@ -1,0 +1,25 @@
+{
+  "producto": [
+    {
+      "img": "../assets/item.png",
+      "nombre": "Casco de darth vader",
+      "precio": 100,
+      "categoria": "starwars",
+      "descripcion": "casco de darth vader, starwars"
+    },
+    {
+      "img": "../assets/funko_spiderman.png",
+      "nombre": "Funko de spiderman",
+      "precio": 60,
+      "categoria": "marvel",
+      "descripcion": "muñeco funko del personaje spiderman"
+    },
+    {
+      "img": "../assets/remera_batman.png",
+      "nombre": "Remera de batman",
+      "precio": 170,
+      "categoria": "dc",
+      "descripcion": "remera de batman"
+    }
+  ]
+}

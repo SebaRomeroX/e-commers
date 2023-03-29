@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/home-styles.css" />
+
+    <title>pagina-producto</title>
+</head>
+<body>
+    <header>
+        <a href="../screens/home.html">
+            <div>
+                <img src="../assets/logo.png" class="logo" alt="logo">
+                <h2>Tienda Geek</h2>
+            </div>
+        </a>
+        
+        <form class="buscador">
+            <input type="text" class="search" placeholder="¿Que estas buscando? ...">
+            <button type="submit" class="search-button" ></button>
+        </form>
+        <a href="../screens/log.html"><button  class="login">Log In</button></a>
+    </header>
+    <main>
+        <section class="pagina_producto">
+            <img src="../assets/item.png" alt="item"> 
+            <div>
+                <h2>nombre producto</h2>
+                <p>precio producto</p> 
+                <p>descripcion : jdjdjnskdnfndfnkdnfash aisu jsdoasdia niasndaijsn diasnd iasn dansdnasdnasnd 
+                    inasdn as dnaisdnansd ikansdi asdn
+                    hasbdkjasdnas daksdnkasdn kans dknaksd nkas dnkas dnkansdknasd knaksd 
+                </p>  
+            </div>
+        </section>
+        <section class="galeria galeria_relacionados">
+            <div class="galeria_info">
+                <h3 class="galeria_titulo">Relacionados</h3>
+                <a href="../screens/productos.html" class="galeria_ver_todo">Ver todo →</a>
+            </div>
+            <div >
+                <nav class="galeria_lista">
+                    <ul class="menu_productos">
+                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>               
+    </main>
+    <section class="rodapie">
+        <div class="logo_info_rodapie">
+            <div class="logo_rodapie">
+                <img src="../assets/logo.png" class="logo" alt="logo">
+                <h2>Tienda Geek</h2>
+            </div>
+            <nav class="contacto">
+                <ul class="menu_contactos">
+                    <li class="menu_contactos_item"> <a href="">Quienes somos </a></li>
+                    <li class="menu_contactos_item"> <a href="">Politica de privacidad </a></li>
+                    <li class="menu_contactos_item"> <a href="">Programa de fidelidad </a></li>
+                    <li class="menu_contactos_item"> <a href="">Nuestras tiendas </a></li>
+                    <li class="menu_contactos_item"> <a href="">Quiero ser franquisiado </a></li>
+                    <li class="menu_contactos_item"> <a href="">Anuncie aqui </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="formulario_contato">
+            <h2 class="formcontato__title">Contactenos</h2>
+            <form class="formulario_mensaje" name="form">
+                <div class="container">
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="nombre" 
+                    required data-tipo="nombre"  maxlength="30">
+                    <span class="input-message-error"></span>
+                </div>
+                <div class="container">
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escriba su mensaje aqui." required data-tipo="mensaje" 
+                         maxlength="400"></textarea>
+                </div>
+                <button type="submit" class="boton_mensaje">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Desarrollado por Sebastian Romero</p><br>
+        <p>2023</p>
+    </footer>
+    <script src="../js/validacion.js"></script>
+</body>
+</html>

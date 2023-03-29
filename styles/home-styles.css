@@ -1,0 +1,462 @@
+/*   general  */
+body{
+    background-color: aliceblue;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+h3{
+    font-size: x-large;
+}
+
+div{
+    display: flex;
+}
+
+/*  header   */
+
+header{
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+
+    height:150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0px 10px 0px 40px;
+}
+
+
+.search{
+    width: 393px;
+    height: 40px;
+
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.search-button{
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: url(../assets/lupa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+.login{
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    padding: 15px 20px;
+    margin-right: 40px;
+}
+
+/*  main   */
+
+.banner{
+    width: 100%;
+}
+
+.galeria{
+    background-color: rgb(73, 73, 73);
+    color: aliceblue;
+
+    padding: 20px 0px 20px 0px;
+    margin-top: 80px;
+}
+
+.galeria_lista{
+    width: 100%;
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria_ver_todo{
+    color: rgb(52, 174, 255);
+    font-weight: bold;
+}
+
+.menu_productos_todos{
+    width: 90%;
+
+    justify-content: space-around;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_productos_todos li {
+    margin: 10px 0px;
+}
+
+.menu_productos_todos li p{
+    margin: 10px 0px;
+}
+
+.menu_productos_todos li a{
+    color: rgb(52, 174, 255);
+}
+
+.menu_productos_todos li img{
+    width: 200px;
+}
+
+.menu_productos{
+    width: 100%;
+
+    justify-content: space-around;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.galeria_info{
+    justify-content: space-between;
+}
+
+.galeria_titulo{
+    margin-left: 30px;
+}
+
+.galeria_ver_todo{
+    margin-right: 30px;
+}
+
+/*  rodapie   */
+
+.rodapie{
+    background-color: rgb(209, 209, 209);
+    
+
+    display: flex;
+    justify-content: space-around;
+
+
+    margin-top: 60px;
+    padding: 40px;
+}
+
+.logo_rodapie{
+    align-items: start;
+
+    margin-top: 40px;
+}
+
+.logo_info_rodapie{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.menu_contactos_item{
+    margin: 20% 0% 20% 0%;
+}
+
+.formulario_contato{
+    display: flex;
+    flex-direction: column;
+
+    width: 340px;
+
+    margin-top: 20px;
+}
+
+form.formulario_mensaje{
+    width: 100%;
+}
+
+.container{
+    margin: 10% 0% 0% 0%;
+    width: 100%;
+
+    flex-direction: column;
+}
+
+.container p{
+    margin-bottom: 10px;
+}
+
+span{
+    color: red;
+
+    margin-top: 3%;
+}
+
+.formcontato__input{
+    width: 100%;
+    height: 40px;
+}
+
+.formcontato__textarea{
+    height: 200px;
+}
+
+.boton_mensaje, .boton_agregar_producto, .boton_login{
+    background-color: rgb(33, 110, 255);
+    color: aliceblue;
+
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    padding: 15px 20px;
+    margin-top: 40px;
+}
+
+.boton_mensaje{
+    align-self: start;
+}
+
+.boton_ver_todo{
+    background-color: rgb(33, 110, 255);
+    color: aliceblue;
+
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    padding: 15px 20px;
+    margin-right: 5%;
+}
+
+/*   footer  */
+
+footer{
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+
+    padding: 20px 0px 20px 0px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*  todos los productos   */
+
+.seccion_producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario_producto{
+    margin: 40px 0px;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario_mensaje{
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formproducto__input{
+    width: 100%;
+    height: 54px;
+}
+
+.formproducto_descripcion__input{
+    width: 100%;
+    height: 80px;
+}
+
+/*   pagina de producto  */
+
+.pagina_producto{
+    display: flex;
+    justify-content: center;
+
+    margin: 80px;
+}
+
+.pagina_producto img{
+    width: 400px;
+}
+
+.pagina_producto div{
+    flex-direction: column;
+
+    margin-left: 40px;
+}
+
+.pagina_producto div{
+    flex-direction: column;
+
+    width: 500px;
+}
+
+.pagina_producto p{
+    margin-top: 40px;
+}
+
+.galeria_relacionados{
+    margin: 80px 0px;
+}
+
+
+/*  login   */
+
+form.formulario_login{
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_login{
+    display: flex;
+    justify-content: center;
+
+    margin: 60px 0px 260px 0px;
+}
+
+
+/*   tablet  */
+
+@media (max-width: 768px){
+/*  header   */
+.logo_info_rodapie{
+    flex-direction: column;
+    justify-content: start;
+}
+
+.search{
+    width: 80%;
+}
+
+
+
+/*  main   */
+
+/*   rodapie  */
+
+.logo_rodapie .logo{
+    margin: 0px;
+}
+
+/*   footer  */
+
+}
+
+
+
+
+/*  mobile   */
+@media (max-width: 375px){
+h2{
+    font-size: x-large;
+}    
+/*  header   */
+
+.search{
+    display: none;
+}
+
+.buscador{
+    order: 1;
+}
+
+.logo{
+    align-self: start;
+
+    margin-left: 10%;
+}
+
+
+/*  main   */
+.menu_productos{
+    flex-wrap: wrap;
+}
+
+/*   rodapie  */
+.rodapie{
+    flex-direction: column;
+    align-items: center;
+}
+
+/*   footer  */
+
+/*   login  */
+.formulario_producto{
+    width: 100%;
+}
+
+form.formulario_login {
+    width: 80%;
+}
+
+/*   todos los productos  */
+.galeria_info_productos{
+    flex-direction: column;
+    align-items: center;
+
+    height: 100px;
+}
+
+.menu_productos_todos{
+    width: 100%;
+}
+
+
+/*   todos los productos  */
+
+.login{
+    margin-right: 5%;
+    width: 80%;
+}
+
+/*  nuevo producto  */
+
+.formulario_producto{
+    width: 90%;
+}
+
+/*  pagina producto  */
+section.pagina_producto{
+    
+    flex-direction: column;
+
+    width: 90%;
+    margin-left: 5%;
+}
+
+.pagina_producto img{
+    width: 100%;
+    align-self: center;
+}
+
+.pagina_producto div{
+    width: 90%;
+    margin: 5%;
+}
+} 
