@@ -1,7 +1,16 @@
 {
-    "nombres": [
-      {
-        "nombre": "Casco de darth vader"
-      }
-    ]
-  }
+  "nombres": [
+    {
+      "nombre": "s",
+      "id": 4
+    },
+    {
+      "nombre": "lalo",
+      "id": 5
+    },
+    {
+      "nombre": "pupu",
+      "id": 6
+    }
+  ]
+}

@@ -16,17 +16,15 @@
                 <h2>Tienda Geek</h2>
             </div>
         </a>
-        <a href="../screens/log.html" class="boton_administrador"><button  class="login">Modo administrador</button></a>
-        
     </header>
     <main>
         <section class="seccion_producto">
             <div class="formulario_producto">
-                <h2 class="formcontato__title">Agregar Nuevo Producto</h2>
-                <form class="formulario_mensaje" name="form" data-form>
+                <h2 class="formcontato__title">Editar producto</h2>
+                <form class="formulario_mensaje" name="form" data-form id="formulario">
                     <div class="container">
                         <input class="formproducto__input" type="text" name="img" placeholder="URL de imagen" id="img"
-                        required data-tipo="text">
+                        required data-tipo="text" >
                         <span class="input-message-error"></span>
                     </div>
                     <div class="container">
@@ -46,8 +44,12 @@
                          required data-tipo="mensaje" 
                              maxlength="400"></textarea>
                     </div>
-                    <button type="submit" class="boton_agregar_producto">Agregar producto</button>
+                    
                 </form>
+                
+                <button class="boton_agregar_producto" id="boton-guardar">Guardar cambios</button>
+                    
+                <button type="submit" class="boton_agregar_producto"><a href="../screens/home.html">Cancelar</a></button>
             </div>
         </section>
     </main>
@@ -58,6 +60,7 @@
         <p>2023</p>
     </footer>
     <script src="../js/validacion.js"></script>
-    <script src="../index.js"></script>
+    
+    <script src="../js/editar.js"></script>
 </body>
 </html>

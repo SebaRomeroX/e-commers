@@ -21,7 +21,7 @@ header{
     background-color: rgb(29, 29, 29);
     color: aliceblue;
 
-    height:150px;
+    height:100px;
 
     display: flex;
     align-items: center;
@@ -37,11 +37,20 @@ header{
     width: 393px;
     height: 40px;
 
-    background: #F5F5F5;
+    /* background: #F5F5F5; */
     border-radius: 20px;
 }
 
+.buscador{
+    background-color: rgb(29, 29, 29);
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+}
+
 .search-button{
+    margin-left: 10px;
     padding: 10px ;
     border: none;
     border-radius: 5px;
@@ -292,41 +301,65 @@ footer{
 
 /*   pagina de producto  */
 
-.pagina_producto{
+#tarjeta_producto{
+    width: 90%;
+    margin: 10% 5%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#tarjeta_producto div{
     display: flex;
     justify-content: center;
 
-    margin: 80px;
 }
 
-.pagina_producto img{
-    width: 400px;
-}
-
-.pagina_producto div{
-    flex-direction: column;
-
-    margin-left: 40px;
-}
-
-.pagina_producto div{
-    flex-direction: column;
-
+.imagen{
     width: 500px;
 }
 
-.pagina_producto p{
-    margin-top: 40px;
+
+
+.tarjeta{
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: column;
+
 }
+
+.tarjeta p{
+    margin: 20% 0%;
+}
+
+.info-prod{
+    margin-bottom: 10%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#tarjeta_producto img{
+    width: 100%;
+}
+
 
 .galeria_relacionados{
     margin: 80px 0px;
 }
 
+.botones{
+    width: 40%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 /*  login   */
 
-form.formulario_login{
+.section_login{
     width: 60%;
 
     display: flex;
@@ -338,6 +371,28 @@ form.formulario_login{
     justify-content: center;
 
     margin: 60px 0px 260px 0px;
+}
+
+.usuario_input{
+    margin: 6% 0%;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 60px 0px 260px 0px;
+
+}
+
+.icono{
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 

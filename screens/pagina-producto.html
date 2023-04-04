@@ -25,31 +25,22 @@
         <a href="../screens/log.html"><button  class="login">Log In</button></a>
     </header>
     <main>
-        <section class="pagina_producto">
-            <img src="../assets/item.png" alt="item"> 
-            <div>
-                <h2>nombre producto</h2>
-                <p>precio producto</p> 
-                <p>descripcion : jdjdjnskdnfndfnkdnfash aisu jsdoasdia niasndaijsn diasnd iasn dansdnasdnasnd 
-                    inasdn as dnaisdnansd ikansdi asdn
-                    hasbdkjasdnas daksdnkasdn kans dknaksd nkas dnkas dnkansdknasd knaksd 
-                </p>  
+        <section>
+            <div id="tarjeta_producto">
             </div>
+            <div class='botones'>
+                <button type="submit" class="boton_mensaje"><a href="../screens/editar.html">Editar</a></button>
+                <button class="boton_mensaje" id='boton-eliminar'>Eliminar</button>
+            </div>    
         </section>
         <section class="galeria galeria_relacionados">
             <div class="galeria_info">
                 <h3 class="galeria_titulo">Relacionados</h3>
-                <a href="../screens/productos.html" class="galeria_ver_todo">Ver todo →</a>
+                <a href="../screens/productos.html" class="galeria_ver_todo"  >Ver todo →</a>
             </div>
             <div >
                 <nav class="galeria_lista">
-                    <ul class="menu_productos">
-                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
-                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
-                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
-                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
-                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
-                        <li class="menu_productos_item"> <img src="../assets/item.png" alt="item">  <p>nombre producto</p> <p>precio producto</p> <a href=""> Ver producto </a></li>
+                    <ul class="menu_productos_todos" id="relacionados" data-galeria>
                     </ul>
                 </nav>
             </div>
@@ -93,5 +84,6 @@
         <p>2023</p>
     </footer>
     <script src="../js/validacion.js"></script>
+    <script src="../js/pagina_producto.js"></script>
 </body>
 </html>

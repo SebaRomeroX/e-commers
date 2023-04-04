@@ -1,25 +1,58 @@
 {
   "producto": [
     {
+      "nombre": "Casco Darth Vader",
+      "precio": "500",
       "img": "../assets/item.png",
-      "nombre": "Casco de darth vader",
-      "precio": 100,
       "categoria": "starwars",
-      "descripcion": "casco de darth vader, starwars"
+      "descripcion": "Un casco de darth vader de tamaño real",
+      "id": 5
     },
     {
+      "nombre": "Baby Yoda",
+      "precio": "200",
+      "img": "../assets/baby_yoda.png",
+      "categoria": "starwars",
+      "descripcion": "Peluche de la serie mandalorian",
+      "id": 6
+    },
+    {
+      "nombre": "Funko Spiderman",
+      "precio": "100",
       "img": "../assets/funko_spiderman.png",
-      "nombre": "Funko de spiderman",
-      "precio": 60,
       "categoria": "marvel",
-      "descripcion": "muñeco funko del personaje spiderman"
+      "descripcion": "Funko pop de spiderman, version MCU",
+      "id": 7
     },
     {
+      "nombre": "Remera  Batman",
+      "precio": "400",
       "img": "../assets/remera_batman.png",
-      "nombre": "Remera de batman",
-      "precio": 170,
       "categoria": "dc",
-      "descripcion": "remera de batman"
+      "descripcion": "talle M, negra, logo amarillo",
+      "id": 8
+    },
+    {
+      "nombre": "Figura de accion Hulk",
+      "precio": "300",
+      "img": "../assets/muñeco_hulk.png",
+      "categoria": "marvel",
+      "descripcion": "Una figura de accion articulada del personaje Hulk, version MCU",
+      "id": 9
     }
-  ]
+  ],
+  "seleccionado": {
+    "producto_seleccionado": "5 "
+  },
+  "mensaje": [
+    {
+      "usuario": "",
+      "mensaje": "",
+      "id": 1
+    }
+  ],
+  "cuenta": {
+    "mail": "mimail@prueba.com",
+    "contraseña": "TTtt777"
+  }
 }

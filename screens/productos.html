@@ -55,17 +55,17 @@
             </div>
             <div class="formulario_contato">
                 <h2 class="formcontato__title">Contactenos</h2>
-                <form class="formulario_mensaje" name="form">
+                <form class="formulario_mensaje" name="form" data-form>
                     <div class="container">
                         <input class="formcontato__input" type="text" name="nombre" placeholder="nombre" 
-                        required data-tipo="nombre"  maxlength="30">
+                        required data-tipo="nombre"  maxlength="30" id="nombre_usuario">
                         <span class="input-message-error"></span>
                     </div>
                     <div class="container">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escriba su mensaje aqui." required data-tipo="mensaje" 
-                             maxlength="400"></textarea>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" name="mensaje" placeholder="Escriba su mensaje aqui." required data-tipo="mensaje" 
+                             maxlength="400" id="mensaje_usuario"></textarea>
                     </div>
-                    <button type="submit" class="boton_mensaje">Enviar mensaje</button>
+                    <button type="submit" class="boton_mensaje" data-boton>Enviar mensaje</button>
                 </form>
             </div>
         </section>
@@ -76,5 +76,6 @@
     </footer>
     <script src="../js/validacion.js"></script>
     <script src="../js/productos_todos.js"></script>
+    <script src="../js/mensajes.js"></script>
 </body>
 </html>

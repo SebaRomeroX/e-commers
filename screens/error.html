@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/home-styles.css" />
-    <title>login</title>
+    <title>error</title>
 </head>
 <body>
     <header>
@@ -20,24 +20,17 @@
         </header>
     </header>
     <main>
-        <section class="seccion_login" id="login">
-            <div class="formulario_producto">
-                <h2 class="formcontato__title">Iniciar Sesion</h2>
-                
-                    <div class="container section_login">
-                        <input class="formcontato__input usuario_input" type="email" name="email" placeholder="E-mail" required data-tipo="email"  id="mail_usuario">
-                        <input class="formcontato__input usuario_input" type="password" name="contraseña" placeholder="Contraseña" required data-tipo="password"
-                        id="contraseña_usuario">
-                    </div>
-                    <button class="boton_login" data-button>Entrar</button>
-                
-            </div>
+        <section class="mensaje" id="error">
+            <img src="../assets/denied.svg" alt="incorrecto" class="icono">
+            <h2>La cuenta no es correcta.</h2>
+            <a href="./log.html" class="boton_login">Log in</a>
         </section>
     </main>
     <footer>
         <p>Desarrollado por Sebastian Romero</p><br>
         <p>2023</p>
     </footer>
+    <script src="../js/validacion.js" ></script>
     <script src="../js/login.js" ></script>
 </body>
 </html>
